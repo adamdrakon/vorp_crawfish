@@ -9,6 +9,13 @@ Locales["es"] = {
 	search_recent = "El agujero del cangrejo de río se ha buscado demasiado recientemente...",
 	searching = "Buscando cangrejos de río...",
 	search_found = "¡Encontraste {count} x {item}!",
+	search_found_nothing = "¡No encontraste nada!",
+	search_found_other = "¡Encontraste algo más!",
+	not_searching = "No estás buscando nada...",
+	search_too_far = "¡Estás demasiado lejos!",
 	harvesting = "desollar el cangrejo de río",
-	harvested = "¡Has cosechado {count} x {item}!"
+	harvested = "¡Has cosechado {count} x {item}!",
+	already_harvesting = "¡Ya estás desollando!",
+	nothing_to_harvest = "¡No tienes nada que despellejar!",
+	not_harvesting = "¡No estás desollando nada!",
 }
