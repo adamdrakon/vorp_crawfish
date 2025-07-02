@@ -16,7 +16,7 @@ Config.ProgressBar = {
 Config.SearchTimeMin = 5000 -- Minimum time, in milliseconds (1000 milliseconds = 1 second), taken to search a crawfish hole.
 Config.SearchTimeMax = 10000 -- Maximum time, in milliseconds (1000 milliseconds = 1 second), taken to search a crawfish hole.
 Config.SearchDelay = 600 -- Time, in seconds, before a crawfish hole can be search again.
-Config.SearchRewardCount = {0, 1} -- How many crawfish players can find per hole; Set this to a table like so {min, max} for random reward count per search; eg {0, 3} will mean a random reward count between 0 and 3.
+Config.SearchRewardCount = 1 -- How many crawfish players can find per hole; Set this to a table like so {min, max} for random reward count per search; eg {0, 3} will mean a random reward count between 0 and 3.
 
 Config.CrawfishItemName = "animal_crawfish" -- The item name of a Crawfish; given to player on successful search (MUST be registered in your items database!).
 Config.CrawfishItemLabel = _U("item_crawfish") -- The display name of a Crawfish. _U("item_crawfish") will pull the name from your language file, or you can just put a name here yourself.
