@@ -8,6 +8,13 @@ Locales["de"] = {
 	search_recent = "Dieses Langustenloch wurde grade durchsucht und ist leer...",
 	searching = "Durchsuche Langustenloch...",
 	search_found = "Du hast eine {item} gefunden!",
+	search_found_nothing = "Sie haben nichts gefunden!",
+	search_found_other = "Du hast noch etwas gefunden!",
+	not_searching = "Sie suchen nichts...",
+	search_too_far = "Du bist zu weit weg!",
 	harvesting = "Languste ausnehmen...",
-	harvested = "Languste ausgenommen, du erhälst {item}!"
+	harvested = "Languste ausgenommen, du erhälst {item}!",
+	already_harvesting = "Du bist schon dabei, etwas auszuweiden...",
+	nothing_to_harvest = "Sie haben keine Langusten zum Zerschneiden!",
+	not_harvesting = "Du hast keinen Languste zerteilt",
 }
