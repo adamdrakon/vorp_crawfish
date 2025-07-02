@@ -154,7 +154,7 @@ RegisterNetEvent("vorp_crawfish:Client:tryHarvest", function()
 end)
 
 local function Init()
-	if not Config.UseLegacyProgressBars then
+	if progressbarType == 2 then
 		if GetResourceState("vorp_progressbar") == "started" then
 			progressbar = exports.vorp_progressbar:initiate()
 		end
